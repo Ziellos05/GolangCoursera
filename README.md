@@ -22,7 +22,7 @@
         - Protocols and formats
         - Files
 
-   2. Mid-level:
+2. Mid-level:
 
         - Functions
         - Parameters
@@ -42,6 +42,7 @@
         - Deffered call arguments
 
 3. Advances
+
         - Object Orientation in GO
         - Classes / Objects
         - Encapsulation
@@ -59,17 +60,18 @@
         - Why use interfaces? -> Empty interfaces -> Canceling Types Diferences -> Type Assertion for Desambiguation -> Type Switch -> Error Interfaces
         - Handing ERRORS
 
-4. Go special: Concurrency
+5. Go special: Concurrency
 
-       - Why use concurrency?
-       - Moore's law -> Power wall -> Dynamic power -> Multi-core systems -> Concurrent execution -> Concurrency vs Parallelism
-       - Concurrent programming -> Hiding latency -> Hardware mapping in GO
-       - Processes -> Scheduling -> Context Switch -> Threads VS Processes
-       - GO Routines -> Go Routines Scheduler -> Interleaving -> Race conditions
-       - Exiting a GO Routine -> Early exit -> Delayed exit
-       - Synchonization -> Sync wait groups -> Communicating GoR -> Channels -> Buffer in channels -> Blocking -> channels capacity/buffer -> Blocking -> Receiving
-       - Iterating through a channel -> Receiving multiple GoR chanels
-       - Select statement -> Select send or receive -> Select with abort channel -> Default select
-       - Mutual exclusion -> Mutex -> Sync.Mutex -> Mutex Methods
-       - Sync initialization
-       - Deadlock -> Deadlock detection
+        - Why use concurrency?
+        - Moore's law -> Power wall -> Dynamic power -> Multi-core systems -> Concurrent execution -> Concurrency vs Parallelism
+        - Concurrent programming -> Hiding latency -> Hardware mapping in GO
+        - Processes -> Scheduling -> Context Switch -> Threads VS Processes
+        - GO Routines -> Go Routines Scheduler -> Interleaving -> Race conditions
+        - Exiting a GO Routine -> Early exit -> Delayed exit
+        - Synchonization -> Sync wait groups -> Communicating GoR -> Channels -> Buffer in channels -> Blocking -> channels capacity/buffer -> Blocking -> Receiving
+        - Iterating through a channel -> Receiving multiple GoR chanels
+        - Select statement -> Select send or receive -> Select with abort channel -> Default select
+        - Mutual exclusion -> Mutex -> Sync.Mutex -> Mutex Methods
+        - Sync initialization
+        - Deadlock -> Deadlock detection
+ 
